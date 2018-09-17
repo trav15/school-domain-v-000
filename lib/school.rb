@@ -3,7 +3,9 @@ class School
     @name = name
   end
   
-  attr_reader :name
-  attr_accessor :roster
+  attr_reader :name, :roster
+  
+  def roster(
+    @roster)
   
 end
