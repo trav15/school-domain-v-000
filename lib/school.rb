@@ -4,4 +4,6 @@ class School
   end
   
   attr_reader :name
+  attr_accessor :roster={}
+  
 end
